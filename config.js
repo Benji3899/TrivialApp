@@ -12,7 +12,7 @@ const fireBaseConfig = {
 };
 
 if (!firebase.apps.length){
-    firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(fireBaseConfig);
 }
 
 export { firebase }
